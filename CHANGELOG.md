@@ -2,6 +2,22 @@
 
 All notable changes to `laravel-backed-enums` will be documented in this file.
 
+## v3.0.0 Release - 2026-03-23
+
+### What's Changed
+
+#### Laravel 12 & 13 Support
+
+- Requires PHP ^8.3 (dropped 8.1/8.2)
+- Requires Laravel 12 or 13 (dropped 10/11)
+
+#### Laravel Boost Support
+
+- Added AI guidelines for Laravel Boost (`resources/boost/guidelines/core.blade.php`)
+- Surfaces commonly-missed package features (e.g. `map()`, `label()`, translations, comparisons) to AI agents
+
+**Full Changelog**: https://github.com/foxbytehq/laravel-backed-enums/compare/v2.6.1...v3.0.0
+
 ## v2.6.1 - 2025-03-05
 
 ### What's Changed
