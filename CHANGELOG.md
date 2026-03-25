@@ -13,6 +13,12 @@ All notable changes to `laravel-backed-enums` will be documented in this file.
 
 **Full Changelog**: https://github.com/foxbytehq/laravel-backed-enums/compare/v3.0.0...v3.1.0
 
+## v3.1.1 - 2026-03-26
+
+### What's Changed
+
+#### Added replace statement to composer file
+
 ## v3.1.0 - 2026-03-25
 
 ### What's Changed
