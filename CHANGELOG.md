@@ -2,6 +2,17 @@
 
 All notable changes to `laravel-backed-enums` will be documented in this file.
 
+## v3.1.0 Release - 2026-03-25
+
+### What's Changed
+
+#### Package Renamed
+
+- Company renamed from Webfox to Foxbyte — updated package namespace from `Webfox\LaravelBackedEnums` to `Foxbytehq\LaravelBackedEnums`
+- Composer package name changed from `webfox/laravel-backed-enums` to `foxbytehq/laravel-backed-enums`
+
+**Full Changelog**: https://github.com/foxbytehq/laravel-backed-enums/compare/v3.0.0...v3.1.0
+
 ## v3.1.0 - 2026-03-25
 
 ### What's Changed
