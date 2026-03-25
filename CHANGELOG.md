@@ -2,6 +2,12 @@
 
 All notable changes to `laravel-backed-enums` will be documented in this file.
 
+## v3.1.1 Release - 2026-03-25
+
+### What's Changed
+
+#### Added replace statement to composer file
+
 ## v3.1.0 Release - 2026-03-25
 
 ### What's Changed
