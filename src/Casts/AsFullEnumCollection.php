@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Webfox\LaravelBackedEnums\Casts;
+namespace Foxbytehq\LaravelBackedEnums\Casts;
 
 use BackedEnum;
 use LogicException;

@@ -13,7 +13,7 @@
     beStrictAboutOutputDuringTests="true"
 >
     <testsuites>
-        <testsuite name="Webfox Test Suite">
+        <testsuite name="Foxbyte Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfox\LaravelBackedEnums;
+namespace Foxbytehq\LaravelBackedEnums;
 
 use Illuminate\Database\Eloquent\JsonEncodingException;
 use Illuminate\Validation\Rules\Enum as EnumValidationRule;
@@ -11,7 +11,7 @@ use function json_last_error_msg;
 use const JSON_ERROR_NONE;
 
 /**
- * @implements \Webfox\LaravelBackedEnums\BackedEnum<string,string>
+ * @implements \Foxbytehq\LaravelBackedEnums\BackedEnum<string,string>
  * @mixin \BackedEnum<string,string>
  * @phpstan-ignore trait.unused
  */

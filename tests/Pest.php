@@ -1,5 +1,5 @@
 <?php
 
-use Webfox\LaravelBackedEnums\Tests\TestCase;
+use Foxbytehq\LaravelBackedEnums\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

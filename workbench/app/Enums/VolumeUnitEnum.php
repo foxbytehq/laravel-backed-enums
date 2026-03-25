@@ -2,8 +2,8 @@
 
 namespace Workbench\App\Enums;
 
-use Webfox\LaravelBackedEnums\BackedEnum;
-use Webfox\LaravelBackedEnums\IsBackedEnum;
+use Foxbytehq\LaravelBackedEnums\BackedEnum;
+use Foxbytehq\LaravelBackedEnums\IsBackedEnum;
 
 enum VolumeUnitEnum: string implements BackedEnum
 {

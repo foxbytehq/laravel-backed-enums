@@ -1,14 +1,14 @@
 ## Laravel Backed Enums
 
-This project uses `webfox/laravel-backed-enums` to add utility methods to PHP backed enums.
+This project uses `foxbytehq/laravel-backed-enums` to add utility methods to PHP backed enums.
 
 ### Creating Enums
 
 Use `php artisan make:enum Name --string` or `--int`. The `Enum` suffix is appended automatically. All backed enums must implement the interface and use the trait:
 
 ```php
-use Webfox\LaravelBackedEnums\BackedEnum;
-use Webfox\LaravelBackedEnums\IsBackedEnum;
+use Foxbytehq\LaravelBackedEnums\BackedEnum;
+use Foxbytehq\LaravelBackedEnums\IsBackedEnum;
 
 enum StatusEnum: string implements BackedEnum
 {
@@ -87,7 +87,7 @@ Use `AsFullEnumCollection` for JSON columns storing multiple enum values:
 protected function casts(): array
 {
     return [
-        'statuses' => \Webfox\LaravelBackedEnums\Casts\AsFullEnumCollection::of(StatusEnum::class),
+        'statuses' => \Foxbytehq\LaravelBackedEnums\Casts\AsFullEnumCollection::of(StatusEnum::class),
     ];
 }
 ```

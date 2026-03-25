@@ -1,14 +1,14 @@
-![Banner Image](https://banners.beyondco.de/Laravel%20Backed%20Enums.png?theme=light&packageManager=composer+require&packageName=webfox%2Flaravel-backed-enums&pattern=architect&style=style_1&description=Supercharge+your+PHP8+backed+enums+in+Laravel.&md=1&showWatermark=0&fontSize=125px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
+![Banner Image](https://banners.beyondco.de/Laravel%20Backed%20Enums.png?theme=light&packageManager=composer+require&packageName=foxbytehq%2Flaravel-backed-enums&pattern=architect&style=style_1&description=Supercharge+your+PHP8+backed+enums+in+Laravel.&md=1&showWatermark=0&fontSize=125px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/webfox/laravel-backed-enums.svg?style=flat-square)](https://packagist.org/packages/webfox/laravel-backed-enums)
-[![Total Downloads](https://img.shields.io/packagist/dt/webfox/laravel-backed-enums.svg?style=flat-square)](https://packagist.org/packages/webfox/laravel-backed-enums)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/foxbytehq/laravel-backed-enums.svg?style=flat-square)](https://packagist.org/packages/foxbytehq/laravel-backed-enums)
+[![Total Downloads](https://img.shields.io/packagist/dt/foxbytehq/laravel-backed-enums.svg?style=flat-square)](https://packagist.org/packages/foxbytehq/laravel-backed-enums)
 
 This package supercharges your PHP8 backed enums with superpowers like localization support and fluent comparison methods.
 
 ## Installation
 
 ```bash
-composer require webfox/laravel-backed-enums
+composer require foxbytehq/laravel-backed-enums
 ```
 
 ## Usage
@@ -57,8 +57,8 @@ The enum you create must implement the `BackedEnum` interface and also use the `
 The interface is required for Laravel to cast your enum correctly and the trait is what gives your enum its superpowers.
 
 ```php
-use Webfox\LaravelBackedEnums\BackedEnum;
-use Webfox\LaravelBackedEnums\IsBackedEnum;
+use Foxbytehq\LaravelBackedEnums\BackedEnum;
+use Foxbytehq\LaravelBackedEnums\IsBackedEnum;
 
 enum VolumeUnitEnum: string implements BackedEnum
 {

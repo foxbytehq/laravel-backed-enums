@@ -1,17 +1,17 @@
 {
-    "name": "webfox/laravel-backed-enums",
+    "name": "foxbytehq/laravel-backed-enums",
     "description": "Supercharge your PHP8 backed enums with superpowers like localization support and fluent comparison methods.",
     "keywords": [
-        "webfox",
+        "foxbytehq",
         "laravel",
         "laravel-backed-enums"
     ],
-    "homepage": "https://github.com/webfox/laravel-backed-enums",
+    "homepage": "https://github.com/foxbytehq/laravel-backed-enums",
     "license": "MIT",
     "authors": [
         {
-            "name": "Webfox Developments Ltd",
-            "email": "developers@webfox.co.nz",
+            "name": "Foxbyte Developments Ltd",
+            "email": "developers@foxbyte.nz",
             "role": "Developer"
         }
     ],
@@ -35,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Webfox\\LaravelBackedEnums\\": "src"
+            "Foxbytehq\\LaravelBackedEnums\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webfox\\LaravelBackedEnums\\Tests\\": "tests",
+            "Foxbytehq\\LaravelBackedEnums\\Tests\\": "tests",
             "Workbench\\App\\": "workbench/app/",
             "Workbench\\Database\\Factories\\": "workbench/database/factories/",
             "Workbench\\Database\\Seeders\\": "workbench/database/seeders/"
@@ -78,7 +78,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webfox\\LaravelBackedEnums\\LaravelBackedEnumsServiceProvider"
+                "Foxbytehq\\LaravelBackedEnums\\LaravelBackedEnumsServiceProvider"
             ]
         }
     },

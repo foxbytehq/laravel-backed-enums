@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfox\LaravelBackedEnums;
+namespace Foxbytehq\LaravelBackedEnums;
 
 use InvalidArgumentException;
 use Illuminate\Foundation\Console\EnumMakeCommand;

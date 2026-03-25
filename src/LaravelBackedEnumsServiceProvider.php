@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfox\LaravelBackedEnums;
+namespace Foxbytehq\LaravelBackedEnums;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

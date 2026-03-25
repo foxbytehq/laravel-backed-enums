@@ -1,6 +1,6 @@
 <?php
 
-// config for Webfox/LaravelBackedEnums
+// config for Foxbytehq/LaravelBackedEnums
 return [
 
 ];

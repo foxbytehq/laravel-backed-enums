@@ -1,9 +1,9 @@
 <?php
 
-namespace Webfox\LaravelBackedEnums\Tests;
+namespace Foxbytehq\LaravelBackedEnums\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Webfox\LaravelBackedEnums\LaravelBackedEnumsServiceProvider;
+use Foxbytehq\LaravelBackedEnums\LaravelBackedEnumsServiceProvider;
 
 class TestCase extends Orchestra
 {

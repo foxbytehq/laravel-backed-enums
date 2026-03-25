@@ -5,7 +5,7 @@ namespace Workbench\App\Models;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Workbench\App\Enums\VolumeUnitEnum;
-use Webfox\LaravelBackedEnums\Casts\AsFullEnumCollection;
+use Foxbytehq\LaravelBackedEnums\Casts\AsFullEnumCollection;
 
 /**
  * @property VolumeUnitEnum $cast_a
