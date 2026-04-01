@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-backed-enums` will be documented in this file.
 
+## v3.1.2 Release - 2026-04-01
+
+Nothing has changed, this release is just to test the packagist workflow.
+
 ## v3.1.1 Release - 2026-03-25
 
 ### What's Changed
